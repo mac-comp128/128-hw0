@@ -5,7 +5,7 @@ Comp 128 - Homework #0
 
 The goal of this homework is to make sure that your development environment is setup correctly and that you can submit an
  assignment. You will correct a simple class that has one method.  Given an array of integers, the method returns a new array containing
-  the subset of integers that are larger than any integer to their right in the original array.
+  the subset of integers that are larger than all integers to their right in the original array.
   
 For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should return {13, 8, 7}.
 

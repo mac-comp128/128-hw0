@@ -5,9 +5,9 @@ Comp 128 - Homework #0
 
 The goal of this homework is to make sure that your development environment is setup correctly and that you can submit an
  assignment. You will correct a simple class that has one method.  Given an array of integers, the method returns a new array containing
-  the subset of integers that are larger than all integers to their right in the original array.
+  the subset of integers that are larger than all integers to their right in the original array. The other elements should be set to zero.
   
-For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should return {13, 8, 7}.
+For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should return a new array of {13, 0, 8, 0, 0, 7}.
 
 
 ### Run the test and write more
@@ -27,7 +27,11 @@ For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should ret
 
 1. Open README.md
 2. Scroll to the 'Put your readme updates here' section at the bottom.
-3. Add your name, list the big-o of the algorithm you have written, and a brief sentence or two justifying it.
+3. Add your name.
+4. List the big-o of the algorithm you have written, and a brief sentence or two justifying it.
+
+*Note: For this assignment we do not care that you have an optimal solution in terms of time or space, just that it performs correctly
+and that the big-o value you list matches the algorithm that you wrote.*
 
 ### Submit your assignment.
 1. Commit your changes: Select the hw0 module, right click, and select Git -> Commit Directory.

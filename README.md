@@ -5,22 +5,22 @@ Comp 128 - Homework #0
 
 The goal of this homework is to make sure that your development environment is setup correctly and that you can submit an
  assignment. You will correct a simple class that has one method.  Given an array of integers, the method returns a new array containing
-  the subset of integers that are larger than all integers to their right in the original array. The other elements should be set to zero.
+  the subset of integers that are larger than all integers to their right in the original array. The other elements should be set to zero. If duplicate values exist, a number is not larger than itself.
   
-For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should return a new array of {13, 0, 8, 0, 0, 7}.
+For example, if the method is passed the array {13, 13, 3, 8, 5, 4, 7} it should return a new array of {0, 13, 0, 8, 0, 0, 7}.
 
 
 ### Run the test and write more
 
-1. Run the test. Right click on the class name ArrayOrderingTest. Select Run -> ArrayOrderingTest. 
-2. IntellIj will run the test, but it will fail. Each test has an orange exclamation points and error messages appear in the console when they are complete.
+1. Run the test. Click on the Test tab in VS Code and run all the tests is the ArrayOrderingTest class. 
+2. VS Code will run the test, but it will fail.
 3. The existing test is pretty simple, it just tests whether you have modified our starting code. Write a few more tests thinking carefully about potential edge cases in the input array.
 
 ### Complete the Algorithm.
 
 1. Open ArrayOrdering.java
 2. Fix the line marked "TODO" in ArrayOrdering.java.
-3. Rerun the unit test AreaTest.java. Look for a green "OK" next to each test.
+3. Rerun the unit tests. Look for a pass next to each test.
 4. If (unit tests do not pass) goto step 2.
 
 ### Update the Readme
@@ -34,15 +34,8 @@ For example, if the method is passed the array {13, 3, 8, 5, 4, 7} it should ret
 and that the big-o value you list matches the algorithm that you wrote.*
 
 ### Submit your assignment.
-1. Commit your changes: Select the hw0 module, right click, and select Git -> Commit Directory.
-2. You should see all the source files you changed with a checkmark in the popup.
-3. Change the "commit" button to "commit and push" in the lower righthand corner.
-4. Write an appropriate message in the comment box.
-5. IMPORTANT: Select *"commit and push"* (not just commit) in the lower right.
-6. Select "push" to send your changes to GitHub.
-7. IntelliJ should say "push successful"
-8. Visit your github site in your web browser to make sure the changes you made were pushed correctly.
-9. Proclaim victory!  You've finished your first 128 homework assignment!
+1. Follow the instructions on the [homework proceedures](https://docs.google.com/document/d/15K351UckNsPs0C9sO4z48xY_cb1vvamA6UymPG260UU/edit?usp=sharing) to commit and push your work to github.
+2. Proclaim victory!  You've finished your first 128 homework assignment!
 
 ---
 ### Put your readme updates here
